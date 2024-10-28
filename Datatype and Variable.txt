@@ -1,0 +1,193 @@
+
+
+Datatype and Variable
+
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Welcome to india");
+
+    return 0;
+}
+
+ Countries names
+
+1.
+#include <stdio.h>
+
+int main()
+{
+    printf("Afghanistan");
+
+    return 0;
+}
+
+2.
+#include <stdio.h>
+
+int main()
+{
+    printf("Albania.");
+
+    return 0;
+}
+
+3.
+#include <stdio.h>
+
+int main()
+{
+    printf("Switzerland");
+
+    return 0;
+}
+
+4.
+#include <stdio.h>
+
+int main()
+{
+    printf("United States");
+
+    return 0;
+}
+
+5.
+#include <stdio.h>
+
+int main()
+{
+    printf("Germany");
+
+    return 0;
+}
+
+5 friends name
+
+1. 
+#include <stdio.h>
+
+int main()
+{
+    printf("Rahul");
+
+    return 0;
+}
+
+2. 
+#include <stdio.h>
+
+int main()
+{
+    printf("Vicky");
+
+    return 0;
+}
+
+3.
+#include <stdio.h>
+
+int main()
+{
+    printf("Rohan");
+
+    return 0;
+}
+
+4. 
+#include <stdio.h>
+
+int main()
+{
+    printf("Riya");
+
+    return 0;
+}
+
+5.
+#include <stdio.h>
+
+int main()
+{
+    printf("pooja");
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+    printf("37");
+
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    float num1=4.674;
+    printf("%f",num1);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    char a='R';
+    printf("%c",a);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    int a=45;
+    int b=89;
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    int a=3;
+    int b=4;
+    int c=a-b;
+    printf("%d",c);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    int a=34;
+    int b=2;
+    int c=a*b;
+
+    printf("%d",c);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    int a=22;
+    int b=2;
+    int c=a/b;
+    printf("%d",c);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    int a=1;
+    int b=9;
+    int c=6;
+    int d=4;
+    int e=5;
+    int g=a+b+c+d+e;
+    printf("%d",g);
+    return 0;
+}
+
+
