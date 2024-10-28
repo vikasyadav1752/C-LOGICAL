@@ -1,0 +1,154 @@
+#include <stdio.h>
+
+int main() {
+    int a = 45;
+    int b = 67;
+    int sum = a + b;
+    
+    printf("The sum of 45 and 67 is: %d\n", sum);
+    
+    return 0;
+}
+
+
+#include <stdio.h> int main() { int a = 23; int b; int result; printf("Enter a number to subtract from 23: "); scanf("%d", &b); result = a - b; printf("The result of 23 - %d is: %d\n", b, result); return 0; }
+
+
+#include <stdio.h>
+
+int main() {
+    int a = 34;
+    int b;
+    int result;
+
+    printf("Enter a number to multiply with 34: ");
+    scanf("%d", &b);
+
+    result = a * b;
+
+    printf("The result of 34 * %d is: %d\n", b, result);
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int a = 22;
+    int b = 2;
+    int result;
+
+    result = a / b;
+
+    printf("The result of 22 / 2 is: %d\n", result);
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int a = 34;
+    int b = 67;
+    int c = 23;
+    int d = 12;
+    int e = 6;
+    int userInput;
+    int sum;
+
+    printf("Enter a number to add to the sum of 34 + 67 + 23 + 12 + 6: ");
+    scanf("%d", &userInput);
+
+    sum = a + b + c + d + e + userInput;
+
+    printf("The total sum is: %d\n", sum);
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+    int a = 23;
+    int b = 89;
+    int c = 12;
+    int d = 56;
+    int sum;
+
+    sum = a + b + c + d;
+
+    printf("The sum of 23 + 89 + 12 + 56 is: %d\n", sum);
+
+    return 0;
+}
+
+
+
+#include <stdio.h> int main() { int a = 56; int b = 34; int c = 12; int d = 2; int e = 13; int userInput; int result; printf("Enter a number to add to the expression (56 * 34 + 12 / 2 - 13): "); scanf("%d", &userInput); result = (a * b) + (c / d) - e + userInput; printf("The result of 56 * 34 + 12 / 2 - 13 + your input is: %d\n", result); return 0; }
+
+
+#include <stdio.h>
+
+int main() {
+    int a = 56;
+    int b = 34;
+    int c = 12;
+    int d = 2;
+    int e = 13;
+    int userInput;
+    int result;
+
+    printf("Enter a number to add to the expression (56 * 34 + 12 / 2 - 13): ");
+    scanf("%d", &userInput);
+
+    result = (a * b) + (c / d) - e + userInput;
+
+    printf("The result of 56 * 34 + 12 / 2 - 13 + your input is: %d\n", result);
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+    float a = 1.2;
+    float b = 6.7;
+    float c = 4.5;
+    float d = 2.0;
+    float result;
+
+    result = (a * b) - (c / d);
+
+    printf("The result of 1.2 * 6.7 - 4.5 / 2 is: %.2f\n", result);
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+    float a = 1.6;
+    float b = 12;
+    float c = 2;
+    float d = 7.8;
+    float e = 1.5;
+    float userInput;
+    float result;
+
+    printf("Enter a number to add to the expression (1.6 * (12 - 2) / 2 + 7.8 - 1.5): ");
+    scanf("%f", &userInput);
+
+    result = (a * (b - c) / 2) + d - e + userInput;
+
+    printf("The result of the expression with your input is: %.2f\n", result);
+
+    return 0;
+}
+
