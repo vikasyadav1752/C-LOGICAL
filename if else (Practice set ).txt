@@ -1,0 +1,116 @@
+#include<stdio.h>
+int main(){
+    //character input 
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='a'){
+        printf("apple");
+    }
+    else{
+        printf("input is not matched");
+    }
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    //character input 
+    char b;
+    printf("enter any character");
+    scanf("%c",&b);
+    if(b=='b'){
+        printf("ball");
+    }
+    else{
+        printf("input is not matched");
+    }
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    //character input 
+    char o;
+    printf("enter any character");
+    scanf("%c",&o);
+    if(o=='o'){
+        printf("orange");
+    }
+    else{
+        printf("input is not matched");
+    }
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    //character input 
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'){
+        
+        printf("vowel");
+    }
+    else{
+        printf("consonant");
+    }
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    //character input 
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='q' || a=='w' || a=='e' || a=='r' || a=='t'|| a=="y" || a=="u" || a=="i" ||a=="o" ||a=="p" ){
+        
+        printf("uper line ");
+    }
+    else{
+        printf("input is not matched");
+    }
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    //character input 
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='a' || a=='s' || a=='d' || a=='f' || a=='g'|| a=="h" || a=="j" || a=="k" ||a=="l"  ){
+        
+        printf("mid line");
+    }
+    else{
+        printf("input is not matched");
+    }
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    //character input 
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='x' || a=='z' || a=='c' || a=='v' || a=='g'|| a=="b" || a=="n" || a=="m"  ){
+        
+        printf("lower line");
+    }
+    else{
+        printf("input is not matched");
+    }
+    return 0;
+}
