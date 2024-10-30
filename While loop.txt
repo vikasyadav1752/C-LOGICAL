@@ -1,0 +1,323 @@
+1.  1-------- 5
+
+#include<stdio.h>
+int main(){
+   int a=1;
+   while(a<=5){
+       printf("%d ",a);
+       a++;
+   }
+    return 0;
+}
+
+
+
+2.   45........90
+
+#include<stdio.h>
+int main(){
+   int a=45;
+   while(a<=90){
+       printf("%d ",a);
+       a++;
+   }
+    return 0;
+}
+
+
+3.  100.......500
+
+#include<stdio.h>
+int main(){
+   int a=100;
+   while(a<=500){
+       printf("%d ",a);
+       a++;
+   }
+    return 0;
+}
+
+
+4.  5 --- 1 
+
+#include<stdio.h>
+int main(){
+   int a=5;
+   while(a>=1){
+       printf("%d ",a);
+       a--;
+   }
+    return 0;
+}
+
+
+5. 67 --- 34
+
+#include<stdio.h>
+int main(){
+   int a=67;
+   while(a>=34){
+       printf("%d ",a);
+       a--;
+   }
+    return 0;
+}
+
+6. 598 --- 165 
+
+#include<stdio.h>
+int main(){
+   int a=598;
+   while(a>=165){
+       printf("%d ",a);
+       a--;
+   }
+    return 0;
+}
+
+7. 1-------- 10
+
+#include <stdio.h>
+
+int main() {
+    int i=1;
+    while(i<=10){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        i++;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+8. 45-------- 90 
+
+
+#include <stdio.h>
+
+int main() {
+    int i=45;
+    while(i<=90){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        i++;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+9. 100-------- 500 
+
+#include <stdio.h>
+
+int main() {
+    int i=100;
+    while(i<=500){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        i++;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+10. 5 --- 1 
+
+#include <stdio.h>
+
+int main() {
+    int a=5;
+    while(a>=1){
+        if(a%2==0){
+            printf("%d",a);
+        }
+        a--;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+11. 67 --- 34
+
+#include <stdio.h>
+
+int main() {
+    int a=67;
+    while(a>=34){
+        if(a%2==0){
+            printf("%d",a);
+        }
+        a--;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+12. 598-------165
+
+#include <stdio.h>
+
+int main() {
+    int a=598;
+    while(a>=165){
+        if(a%2==0){
+            printf("%d",a);
+        }
+        a--;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+
+13.1--------5
+
+#include <stdio.h>
+
+int main() {
+    int i=1;
+    while(i<=5){
+        if(i%2==1){
+            printf("%d",i);
+        }
+        i++;
+    }
+    
+    
+    
+    return 0;
+}
+
+14. 45-------90
+
+
+#include <stdio.h>
+
+int main() {
+    int i=45;
+    while(i<=90){
+        if(i%2==1){
+            printf("%d",i);
+        }
+        i++;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+15.100------500
+
+#include <stdio.h>
+
+int main() {
+    int i=100;
+    while(i<=500){
+        if(i%2==1){
+            printf("%d",i);
+        }
+        i++;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+
+16.5----1
+
+#include<stdio.h>
+int main(){
+   int a=5;
+   while(a>=1){
+       if(a%2==0){
+           printf("%d ",a);
+       }
+       a--;
+   }
+    return 0;
+}
+
+
+17.67-----34
+
+#include<stdio.h>
+int main(){
+   int a=67;
+   while(a>=34){
+       if(a%2==0){
+           printf("%d ",a);
+       }
+       a--;
+   }
+    return 0;
+}
+
+
+18. 598-------165
+
+#include<stdio.h>
+int main(){
+   int a=598;
+   while(a>=165){
+       if(a%2==0){
+           printf("%d ",a);
+       }
+       a--;
+   }
+    return 0;
+}
+
+
+19.
+
+#include <stdio.h>
+
+int main() {
+    int a = 1;
+    while (a <= 5) {
+        printf("%d\n", a);
+        a++;
+    }
+    return 0;
+}
+
+
+
+20.
+
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    while (a >= 1) {
+        printf("%d\n", a);
+        a--;
+    }
+    return 0;
+}  
